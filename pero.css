@@ -1,0 +1,71 @@
+@font-face{
+	font-family: 'Montserrat';
+	src: url('font/Montserrat-Regular.otf') format("open type");
+	font-weight: 400
+}
+body{
+	margin: 0;
+	letter-spacing: 0.2px
+	font-family:sans-serif;
+}
+h1,h2{
+	color: orange;
+}
+input[type="text"]
+input[type="email"]{
+	width: 200px;
+	height:auto;
+}
+tr:nth-child(2n){
+	background: grey;
+}
+.header{
+	background:grey;
+	padding: 20px;
+	height:200px;
+	background-image: url("img/nass.jpg");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll; 
+
+}
+.header-tittle{
+	margin-top: 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+.header-nav{
+	margin: 20px 0px;
+	color: white;
+	background-color: white;
+
+
+}
+.header img{
+	width: 900px;
+}
+.header-nav a{
+	margin: 20px 5px;
+    color: black;
+	text-decoration:none;
+	text-align: bottom;
+
+}
+.main{
+	background:lightgrey;
+	padding: 20px;
+}
+.main p{
+	text-decoration: justify;
+}
+.footer{
+	background:grey;
+	padding: 10px 20px;
+	font-style: italic;
+
+}
+textarea{
+	margin-left: 10px;
+}
+
